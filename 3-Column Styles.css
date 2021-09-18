@@ -1,0 +1,89 @@
+/*
+    Grid
+    Container
+        display:grid
+        grid-template-columns => [Number of columns In] => [3]
+        grid-template-rows  => [Number of rows In]  => [4]
+*/
+
+/* The CSS properties of the Grid */
+.container{    
+    display: grid;
+    height: 100vh;          
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(2,1fr) 4fr 1fr;
+}
+
+/*The background-color of 1st column [sedans]*/
+.sedans-column{
+    background-color: hsl(31, 77%, 52%);
+}
+
+/*The background-color of 2nd column [suvs]*/
+.suvs-column{
+    background-color: hsl(184, 100%, 22%);
+}
+
+/*The background-color of 3rd column [luxury]*/
+.luxury-column{
+    background-color: hsl(179, 100%, 13%);
+}
+
+/* The CSS properties of icons */
+.icon{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+/* The CSS properties of headers */
+.header{
+    color: hsl(0, 0%, 95%);
+    margin-left : 30px;
+    font-family: 'Big Shoulders Display';
+}
+
+/* The CSS properties of contents */
+.content{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca';
+    margin-right: 30px;
+    margin-left : 30px;
+}
+
+/* The CSS properties of buttons */
+.button{
+    background-color: hsl(0, 0%, 95%);
+    text-align: center;
+    display:inline-block;
+    padding: 10px 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-style: none;    
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+/* The CSS properties of buttons at hover states */
+.button:hover{
+    cursor: pointer;
+    border: 1px solid hsl(0, 0%, 95%);    
+    color: hsl(0, 0%, 95%);
+    background-color: transparent;
+}
+
+/* The text color of button1 */
+.button1{
+    color: hsl(31, 77%, 52%);
+}
+
+/* The text color of button2 */
+.button2{
+    color: hsl(184, 100%, 22%);
+}
+
+/* The text color of button3 */
+.button3{
+    color: hsl(179, 100%, 13%);
+}
