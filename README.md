@@ -34,6 +34,6 @@ Users should be able to:
 - CSS Grid.
 
 ## Author
-- E-mail : [Enas Hamdy](enas.hamdy94@hotmail.com)
+- E-mail : enas.hamdy94@hotmail.com
 - Frontend Mentor : [@EnasHamdy](https://www.frontendmentor.io/profile/EnasHamdy)
  
